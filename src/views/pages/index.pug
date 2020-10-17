@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="icon" type="image/png" href="assets/icons/favicon.png")
+        link(rel="stylesheet", href="css/styles.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap")
+        title BEM Workshop
+    body
+      .header
+        h1.header__title Social Media Dashboard
+        p#total-followers.header__subtitle Total Followers:23.004
+        #switch.switch
+          p#switch__text Dark Mode
+          input(type="checkbox" id="switch-input" class="switch__checkbox")
+          label(for="switch-input" id="switch__label" class="switch__label") 
+      article.first-row
+        //- card facebook
+        .card.card--facebook
+          .card__title
+            img(src="assets/icons/icon-facebook.svg" alt="facebook").card__icon
+            .card__user @nathanf
+          .card__number 1987
+          .card__text FOLLOWERS
+          .card-today-facebook.card__today.card__today--up 
+            img(src="assets/icons/icon-up.svg" alt="today")#card 
+            span 12 Today
+        //- card twitter
+        .card.card--twitter
+          .card__title
+            img(src="assets/icons/icon-twitter.svg" alt="twitter").card__icon
+            .card__user @nathanf
+          .card__number 1987
+          .card__text FOLLOWERS
+          .card-today-twitter.card__today.card__today--up 
+            img(src="assets/icons/icon-up.svg" alt="today")#card 
+            span 12 Today
+        //- card instagram
+        .card.card--instagram
+          .card__title
+            img(src="assets/icons/icon-instagram.svg" alt="instagram").card__icon
+            .card__user @realnathanf
+          .card__number 11K
+          .card__text FOLLOWERS
+          .card-today-insatgram.card__today.card__today--up 
+            img(src="assets/icons/icon-up.svg" alt="today")#card 
+            span 12 Today
+        //- card youtube
+        .card.card--youtube
+          .card__title
+            img(src="assets/icons/icon-youtube.svg" alt="youtube").card__icon
+            .card__user Nathan F.
+          .card__number 8239
+          .card__text SUSCRIBERS
+          .card-today-insatgram.card__today.card__today--down 
+            img(src="assets/icons/icon-down.svg" alt="today")#card 
+            span 12 Today
+      article.second-row
+        h2.second-row__title Overview - Today 
+         .card
+          .card__title
+            .card__icon
+          .card__number
+          .card__today
+
+
+      script(src="js/script-min.js")

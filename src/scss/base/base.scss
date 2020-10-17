@@ -1,0 +1,23 @@
+
+body{
+  padding: 20px;
+  font-size: 14px;
+  font-family:'Inter', sans-serif;
+  background-color: var(--White);
+
+  &::before{
+      content: '';
+      display: block;
+      width: 100%;
+      height: 180px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      border-radius: 0 0 15px 15px;
+      background-color: var(--White);
+     // background-image: linear-gradient(var(--Very-Pale-Blue-Light), var(--White-Light));
+      background-color:var();
+  }
+}
