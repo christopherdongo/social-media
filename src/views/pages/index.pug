@@ -9,8 +9,9 @@ html(lang="en")
         title BEM Workshop
     body
       .header
-        h1.header__title Social Media Dashboard
-        p#total-followers.header__subtitle Total Followers:23.004
+        .header__texts
+          h1.header__title Social Media Dashboard
+          p#total-followers.header__subtitle Total Followers:23.004
         #switch.switch
           p#switch__text Dark Mode
           input(type="checkbox" id="switch-input" class="switch__checkbox")
@@ -43,7 +44,7 @@ html(lang="en")
             .card__user @realnathanf
           .card__number 11K
           .card__text FOLLOWERS
-          .card-today-insatgram.card__today.card__today--up 
+          .card-today-instagram.card__today.card__today--up 
             img(src="assets/icons/icon-up.svg" alt="today")#card 
             span 12 Today
         //- card youtube
@@ -53,16 +54,65 @@ html(lang="en")
             .card__user Nathan F.
           .card__number 8239
           .card__text SUSCRIBERS
-          .card-today-insatgram.card__today.card__today--down 
+          .card-today-youtube.card__today.card__today--down
             img(src="assets/icons/icon-down.svg" alt="today")#card 
             span 12 Today
       article.second-row
         h2.second-row__title Overview - Today 
-         .card
-          .card__title
-            .card__icon
-          .card__number
-          .card__today
-
-
+        .card.card--small
+          .card__title.card__title--small Page Views
+            img(src="assets/icons/icon-facebook.svg" alt="facebook").card__icon.card__icon--small
+          .card__number.card__number--small 87
+          .card__today.card__today--up.card__today--small
+            img(src="assets/icons/icon-up.svg" alt="up")
+            span 3%
+        .card.card--small
+          .card__title.card__title--small Likes
+            img(src="assets/icons/icon-facebook.svg" alt="facebook").card__icon.card__icon--small
+          .card__number.card__number--small 52
+          .card__today.card__today--down.card__today--small
+            img(src="assets/icons/icon-down.svg" alt="down")
+            span 2%
+        .card.card--small
+          .card__title.card__title--small Likes
+            img(src="assets/icons/icon-instagram.svg" alt="instagram").card__icon.card__icon--small
+          .card__number.card__number--small 5462
+          .card__today.card__today--up.card__today--small
+            img(src="assets/icons/icon-down.svg" alt="down")
+            span 2572%
+        .card.card--small
+          .card__title.card__title--small Profile Views
+            img(src="assets/icons/icon-instagram.svg" alt="instagram").card__icon.card__icon--small
+          .card__number.card__number--small 52K
+          .card__today.card__today--up.card__today--small
+            img(src="assets/icons/icon-down.svg" alt="down")
+            span 1375%
+        .card.card--small
+          .card__title.card__title--small Retweets
+            img(src="assets/icons/icon-twitter.svg" alt="instagram").card__icon.card__icon--small
+          .card__number.card__number--small 117
+          .card__today.card__today--up.card__today--small
+            img(src="assets/icons/icon-up.svg" alt="down")
+            span 303%
+        .card.card--small
+          .card__title.card__title--small Likes
+            img(src="assets/icons/icon-twitter.svg" alt="instagram").card__icon.card__icon--small
+          .card__number.card__number--small 507
+          .card__today.card__today--up.card__today--small
+            img(src="assets/icons/icon-up.svg" alt="down")
+            span 553%
+        .card.card--small
+          .card__title.card__title--small Likes
+            img(src="assets/icons/icon-youtube.svg" alt="instagram").card__icon.card__icon--small
+          .card__number.card__number--small 107
+          .card__today.card__today--down.card__today--small
+            img(src="assets/icons/icon-down.svg" alt="down")
+            span 19%
+        .card.card--small
+          .card__title.card__title--small TotalViews
+            img(src="assets/icons/icon-youtube.svg" alt="instagram").card__icon.card__icon--small
+          .card__number.card__number--small 1407
+          .card__today.card__today--down.card__today--small
+            img(src="assets/icons/icon-down.svg" alt="down")
+            span 12%
       script(src="js/script-min.js")

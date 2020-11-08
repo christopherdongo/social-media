@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    
+    @media screen and (min-width: 1440px) {
+       margin-right:15px ;
+      }
 
     &__checkbox{
         display: none;
@@ -17,6 +21,9 @@
     background-color:var(--Theme-Toggle-Light);
     border-radius: 25px;
     padding: 0 5px;
+    @media screen and (min-width: 1440px) {
+        margin-right:10px ;
+       }
     
     &::before{
         content: '';
