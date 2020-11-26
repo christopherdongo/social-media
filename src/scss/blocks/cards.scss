@@ -4,11 +4,15 @@
   align-items: center;
   font-family: var(--main-font-family);
   font-weight: 700;
-  background-color: var(--bg-color-head);
+  background-color: var(--bg--card);
   border-radius: 10px;
   position: relative;
   padding: 40px 0 25px 0;
   margin-bottom: 25px;
+
+  &:hover{
+    background-color: var(--card-bg-hover)
+  }
 
   &__title {
     display: flex;

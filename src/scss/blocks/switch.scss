@@ -14,7 +14,9 @@
       
     }
     &__text{
-        color: var(--soft-text);
+        font-size: 1.2em;
+        font-weight: 700;
+        color: var(--text-soft-switch);
     }
 
 .switch__label{

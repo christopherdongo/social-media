@@ -30,7 +30,7 @@ const writerNumbers = (format) => {
     totalFollowersNumber +=random;  
     number.textContent = random;
 });
-  totalFollowers.textContent = `Total People Who Loves You : ${format ? 
+  totalFollowers.textContent = `Total Followers : ${format ? 
     formatNumber(totalFollowersNumber) : 
     addPointsNumber(totalFollowersNumber)
 } `;
