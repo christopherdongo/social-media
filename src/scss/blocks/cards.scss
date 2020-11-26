@@ -4,7 +4,7 @@
   align-items: center;
   font-family: var(--main-font-family);
   font-weight: 700;
-  background-color: var(--Very-Pale-Blue-Light);
+  background-color: var(--bg-color-head);
   border-radius: 10px;
   position: relative;
   padding: 40px 0 25px 0;
@@ -15,11 +15,13 @@
     align-items: center;
     font-size: 15px;
     margin-bottom: 15px;
+    color:var(--soft-blue);
 
     &--small {
       display: flex;
       grid-column: span 2;
       justify-content: space-between;
+      
     }
   }
   &__icon {
@@ -32,15 +34,16 @@
   &__number {
     font-size: 52px;
     margin-bottom: 10px;
+    color: var(--soft-text);
     &--small {
       font-size: 40px;
     }
   }
   &__text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 5px;
-    color: var(--Theme-Toggle-Light);
+    color: var(--soft-blue);
     margin-bottom: 30px;
   }
   &__today {

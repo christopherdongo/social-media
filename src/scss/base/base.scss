@@ -10,9 +10,9 @@ html::before{
     right: 0;
     z-index: -1;
     border-radius: 0 0 15px 15px;
-    background-color: var(--Very-Pale-Blue-Light);
+    background-color: var(--bg-color-head);
    // background-image: linear-gradient(var(--Very-Pale-Blue-Light), var(--White-Light));
-    background-color:var();
+   
 
 }
 
@@ -20,7 +20,7 @@ body{
   padding: 20px;
   font-size: 14px;
   font-family:'Inter', sans-serif;
-  background-color: var(--White);
+  background-color: var(--bg-color);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;

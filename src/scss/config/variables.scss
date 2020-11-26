@@ -3,12 +3,11 @@
     --Primary-BrightRed: hsl(356, 69%, 56%);
     --Primary-Facebook: hsl(208, 92%, 53%);
     --Primary-Twitter: hsl(203, 89%, 53%);
-    --Primary-Instagram: linear-gradient(90deg,hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
+    --Primary-Instagram: linear-gradient(90deg,hsl(37, 97%, 70%) 0% , hsl(329, 70%, 58%) 100%);
     --Primary-YouTube: hsl(348, 97%, 39%);
-
-    --Theme-Toggle-Dark: linear-gradient(90deg hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+/*
+    --Theme-Toggle-Dark: linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
     --Theme-Toggle-Light: hsl(230, 22%, 74%);
-
    --VeryDarkBlue: hsl(230, 17%, 14%);
    --VeryDarkBlueTopBG: hsl(232, 19%, 15%);
 
@@ -21,8 +20,22 @@
 --Light-Grayish-Blue-Light: hsl(227, 47%, 96%);
 --Dark-Grayish-Blue-Light: hsl(228, 12%, 44%);
 --Very-Dark-Light: hsl(230, 17%, 14%);
-
+*/
 /*font family*/
 --main-font-family:'Inter', sans-serif;
+
+/*light*/
+--bg-color:hsl(0, 0%, 100%);
+--bg-color-head:hsl(225, 100%, 98%);
+--card-bg:hsl(227, 47%, 96%);
+--soft-blue:hsl(228, 12%, 44%);
+--toogle-bg:hsl(230, 22%,74%);
+--white:#fff;
+--soft-text:hsl(230, 17%, 14%);
+--toggle-bg-dark:linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+--toggle-bg-hover:linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+
+/*dark*/
+
 
 }
