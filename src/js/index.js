@@ -3,10 +3,6 @@ const totalFollowers = document.getElementById("total-followers");
 const switchContainer = document.getElementById("switch-container");
 const cardNumber = [...document.querySelectorAll(".card__number")];
 const title = document.querySelector('.header__title')
-//const switchinput = document.getElementById('switch-input')
-
-
-//switchinput.addEventListener("change", themeDark, false);
 
 //variables color:
 let totalFollowersNumber = 0;
@@ -37,7 +33,6 @@ const writerNumbers = (format) => {
 
 }
 writerNumbers(false);
-
 
 /*
 //theme darjk

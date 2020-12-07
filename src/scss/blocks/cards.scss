@@ -9,11 +9,9 @@
   position: relative;
   padding: 40px 0 25px 0;
 
-
   &:hover{
     background-color: var(--card-bg-hover)
   }
-
   &__title {
     display: flex;
     align-items: center;
@@ -25,7 +23,6 @@
       display: flex;
       grid-column: span 2;
       justify-content: space-between;
-      
     }
   }
   &__icon {

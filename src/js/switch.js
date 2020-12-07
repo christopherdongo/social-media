@@ -3,7 +3,6 @@
 const switchInput = document.getElementById('switch-input')
 const styles = document.documentElement.style;
 
-
 const lightTheme = {
     '--bg-color':'hsl(0, 0%, 100%)',
     '--bg-color-head':'hsl(225, 100%, 98%)',
@@ -17,7 +16,6 @@ const lightTheme = {
     '--toggle-bg-hover':'linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%)',
     '--card-bg-hover': '#e1e3f0',
 };
-
 const darkTheme ={
     '--bg-color':'hsl(230,17%,14%)',
     '--bg-color-head':'hsl(232, 19%, 15%)',

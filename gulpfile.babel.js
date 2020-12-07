@@ -103,4 +103,4 @@ gulp.task('babel', () => {
     gulp.watch('./src/views/**/*.pug', gulp.series('views')).on('change', reload);
     gulp.watch('./src/scss/**/*.scss', gulp.series('sass'));
     gulp.watch('./src/js/*.js', gulp.series('babel')).on('change', reload);
-  });74
+  });

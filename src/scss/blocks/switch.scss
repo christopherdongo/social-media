@@ -4,14 +4,12 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;
-
     @media screen and (min-width: 1440px) {
        margin-right:15px ;
       }
 
     &__checkbox{
         display: none;
-      
     }
     &__text{
         font-size: 1.2em;
@@ -45,7 +43,6 @@
         transition: transform 0.3s;
         margin-bottom: 1px;
     }
-
 }
 &__checkbox:checked + .switch__label::before{
     transform: translate(30px);
